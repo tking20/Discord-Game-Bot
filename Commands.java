@@ -85,7 +85,7 @@ public class Commands extends ListenerAdapter
 			case "!createGame":
 				if(!gameOpen && !gameRunning)
 				{
-					c.sendMessage("To play Liar's Dice, type `!createGameD`\nTo play Liar's Poker, type `!createGameP`\nTo play The Mind, type `!createGameM`").queue();
+					c.sendMessage("To play Liar's Dice, type `!createGameD`\nTo play Liar's Poker, type `!createGameP`").queue();
 				}
 				else
 				{
